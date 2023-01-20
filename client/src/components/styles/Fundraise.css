@@ -1,0 +1,141 @@
+.paginate-ctn{
+  display: flex;
+}
+.round-effect{
+color:#2724dd;
+cursor:pointer;
+/*   border:1px solid red; */
+
+font-size:16px;
+text-align:center;
+padding-left:10px;
+padding-right:10px;
+padding-top:9px;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+margin:5px;
+box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+ text-decoration: none;
+}
+
+.round-effect:hover{
+text-decoration: none;
+background:#2724dd;
+color:#FFF;
+}
+.round-effect:hover a {
+text-decoration: none;
+color:#FFF;
+}
+
+.active{
+background:#2724dd;
+color:#FFF;
+}
+a:link {
+text-decoration: none;
+color:#DD4124;
+}
+
+.pagination-number {
+  color: white;
+  font-size: 20px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+}
+
+.flex-container {
+  display: flex;
+  justify-content: end;
+  /* flex-direction: column; */
+  align-items: center;
+}
+
+.BoxContainer{
+    max-width: 1690px;
+    padding-bottom: 25px;
+    column-gap: 5px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    
+  
+  }
+
+  .Amount {
+    color: green;
+    font-weight: 700;
+    margin-top: 0;
+  }
+
+  .CardBio {
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.677);
+  }
+  
+.Banner {
+margin-top: -10px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;;
+}
+.contentWrap {
+    margin-left: 10px;
+    padding-bottom: 10px;
+}
+
+.profileP{
+    width: 80px;
+    height: 80px;
+    border-radius: 200px;
+    margin-top: 50px;
+    margin-left: -330px;
+    position: absolute;
+    object-fit: cover;
+    background-color: white;
+    border: solid 5px white;
+
+   
+}
+
+.NameBox {
+    margin-top: 50px;
+
+}
+  
+  .Box {
+    background-color: white;
+ 
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.376);
+
+  }
+  
+  .Box:hover {
+    background-color: white;
+    
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.376);
+    transform: scale(01.01);
+    transition: .3s ease-in-out;
+
+  }
+  
+
+  .button {
+    text-transform: none;
+    margin-left: 10px;
+    margin-top: 3.5px;
+    font-size: small;
+    padding: 0px 3px;
+    cursor: pointer;
+    color: blue;
+    font-weight: 600;
+    
+
+  }
